@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+   <!-- fav icon -->
+    <link rel="stylesheet" href="images/fav-icon.png">
+    <!-- fontawsome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!-- poppins  google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+</head>
+
+<body>
+
+   <!-- navigation -->
+    <nav  class="navigation">
+         <!-- logo -->
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+          </a>
+
+        <!-- search -->
+       <form class="search-box">
+        <input type="text" placeholder="Search product here" required>
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+       </form>
+
+       <!-- btns -->
+
+       <div class="nav-btns">
+            <!-- user -->
+             <a href="#" class="nav-user">
+              <i class="fa-regular fa-user" id="nav-user"></i>
+             </a>
+             <!-- cart -->
+              <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping" id="nav-user"></i>
+              </a>
+
+       </div>
+
+    </nav>   <!--nav-end-->
+
+   
+<!-- footer -->
+
+<!-- product-page -->
+ <section id="product-details">
+<!-- =----img -->
+<div class="d-product-img">
+  <img src="images/n5.png" >
+</div>
+<!-- text -->
+ <div class="d-product-text">
+<!-- category -->
+ <span class="category">Cosmetic > Face Make Up</span>
+ <!-- title -->
+  <strong>Bridal EyeLashies With Glue</strong>
+<!-- rating -->
+ <span class="rating">
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star-half-stroke"></i>
+  <span>200 Review's</span>
+ </span>
+ <!-- details -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem, magnam magni ipsa mollitia velit aliquam labore accusantium nihil reprehenderit iste expedita temporibus eveniet sint aut dolore nulla non libero!
+    Aperiam voluptatem, magnam magni ipsa mollitia velit aliquam labore accusantium nihil reprehenderit iste expedita temporibus eveniet sint aut dolore nulla non libero!
+  </p>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis assumenda vel impedit molestiae molestia 
+ </p>
+ <!-- price -->
+<span class="price">50$ <del>60$</del></span>
+<!-- quantity -->
+ <div class="quantity">
+  <span>Quantity</span>
+  <input type="number" min="1" value="1">
+ </div>
+ <!-- add -to-cart -->
+  <a href="#" class="add-cart-btn">Add To Cart</a>
+</div>
+ </section>
+
+<footer>
+    <div class="footer-container">
+      <!-- company-box -->
+       <div class="footer-company-box">
+        <!-- logo -->
+              <a href="#" class="footer-logo">
+                Logo
+              </a>
+              <!-- details-->
+               <p>Lorem ipsum, dolor sit amet eaque ob eveniet tenetur quod blanditiis, facilis quis vitae accusantium?</p>
+               <!-- social -->
+     <div class="footer-social">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+      </div>
+
+      <!-- link -box -->
+       <div class="footer-link-box">
+        <strong>Main Link's</strong>
+        <ul><li><a href="#">Our product's</a></li></ul>
+        <ul><li><a href="#">Privacy Policy</a></li></ul>
+        <ul><li><a href="#">Disclimer</a></li></ul>
+        <ul><li><a href="#">Term's & Condition</a></li></ul>
+       </div>
+      <!-- link -box -->
+       <div class="footer-link-box">
+        <strong>Main Link's</strong>
+        <ul><li><a href="#">Our product's</a></li></ul>
+        <ul><li><a href="#">Privacy Policy</a></li></ul>
+        <ul><li><a href="#">Disclimer</a></li></ul>
+        <ul><li><a href="#">Term's & Condition</a></li></ul>
+       </div>
+      <!-- link -box -->
+       <div class="footer-link-box">
+        <strong>Main Link's</strong>
+        <ul><li><a href="#">Our product's</a></li></ul>
+        <ul><li><a href="#">Privacy Policy</a></li></ul>
+        <ul><li><a href="#">Disclimer</a></li></ul>
+        <ul><li><a href="#">Term's & Condition</a></li></ul>
+       </div>
+    </div>
+
+    <!-- ===========bottom====== -->
+<div class="footer-bottom">
+  <span class="footer-owner">made by 	&#9829;</span>
+  <span class="copyright">&copy; Copyright 2024</span>
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!-- -------jquery -->
+  <script  src="js/jquery-3.7.1.js"></script>
+
+  <!-- ---------scripting -->
+    <script>
+/* --------filter-link active---------  */
+ var selector = '.new-p-heading li';
+
+
+ $(selector).on('click',function(){
+    $(selector).removeClass('active')
+    $(this).addClass('active')
+ });
+/*  ---box-filter-----*/
+
+$(document).ready(function(){
+  $('.new-p-heading li').click(function(){
+    const value = $(this).attr('data-filter');
+    if(value == 'all'){
+      $('.new-product-box').show('1000');
+    }
+    else{
+      $('.new-product-box').not('.'+value).hide('1000');
+      $('.new-product-box').filter('.'+value).show('1000');
+      
+    }
+  })
+})
+    </script>
+</body>
+</html>

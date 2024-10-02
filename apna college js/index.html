@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beauty salon</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+   <!-- fav icon -->
+    <link rel="stylesheet" href="images/fav-icon.png">
+    <!-- fontawsome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<!-- poppins  google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+</head>
+
+<body>
+
+   <!-- navigation -->
+    <nav  class="navigation">
+         <!-- logo -->
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="">
+          </a>
+
+        <!-- search -->
+       <form class="search-box">
+        <input type="text" placeholder="Search product here" required>
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+       </form>
+
+       <!-- btns -->
+
+       <div class="nav-btns">
+            <!-- user -->
+             <a href="#" class="nav-user">
+              <i class="fa-regular fa-user" id="nav-user"></i>
+             </a>
+             <!-- cart -->
+              <a href="#" class="nav-cart">
+                <i class="fa-solid fa-cart-shopping" id="nav-user"></i>
+              </a>
+
+       </div>
+
+    </nav>   <!--nav-end-->
+
+    <!--============== main  ============================-->
+     <section id="main">
+      <!-- text -->
+      <div class="main-text">
+        <span>New Collection</span>
+        <h1>Ecommerce <font>Beauty Product's  Website </font>  using html , css and javascript.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero est aliquam laudantium quod 
+          consequatur maxime? Nostrum, fugiat officia beatae perferendis doloribus eius, eos praesentium sequi error architecto ratione sed obcaecati!
+        </p>
+        <a href="#">Shop Now</a>
+      </div>
+
+      <!----------------------- image------------ -->
+       <div class="main-img">
+        <img src="images/main.png" >
+       </div>
+
+     </section>   <!--section end-->
+
+     <!-- -----------------product grid3------ -->
+      <section class="product-grid-3 ">
+            <!-- box1 -->
+             <div class="product-grid-box  product-grid-box1">
+              <!-- img -->
+               <img src="images/s1.jpg" >
+             
+            <!-- product-grid-text -->
+             <div class="product-grid-text">
+              <strong>Natural Green Lotion</strong>
+              <span>skin care Product</span>
+              <a href="#">shop Now</a>
+             </div>
+          </div>
+            <!-- box2 -->
+             <div class="product-grid-box  product-grid-box2">
+              <!-- img -->
+               <img src="images/s2.jpg" >
+             
+            <!-- product-grid-text -->
+             <div class="product-grid-text">
+              <strong>Natural Green Lotion</strong>
+              <span>skin care Product</span>
+              <a href="#">shop Now</a>
+             </div>
+          </div>
+            <!-- box3 -->
+             <div class="product-grid-box  product-grid-box3">
+              <!-- img -->
+               <img src="images/s3.jpg" >
+             
+            <!-- product-grid-text -->
+             <div class="product-grid-text">
+              <strong>Natural Green Lotion</strong>
+              <span>skin care Product</span>
+              <a href="#">shop Now</a>
+             </div>
+          </div>
+      </section>   <!---------grid-end-->
+      
+           <!----------- new product----------- -->
+           <section id="new_products">
+              <!-- heading -->
+               <div class="new-p-heading">
+                <!-- heading -->
+                <h3>New Product's</h3>
+                 <!-- filter-list -->
+                 <ul>
+                  <li class="active" data-filter="all">All</li>
+                  <li data-filter="skin">Skin</li>
+                  <li data-filter="makeup">Makeup</li>
+                  <li data-filter="nail">Nail's</li>
+                 </ul>
+              </div>
+
+<!-- ----------- container -->
+            <div class="new-product-container">
+              <!-- ------box1--- -->
+              <div class="new-product-box skin" >
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n1.png" alt="">
+                  <span>Skin care</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box2--- -->
+              <div class="new-product-box skin">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n2.png" alt="">
+                  <span>Skin care</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box3--- -->
+              <div class="new-product-box nail">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n3.png" alt="">
+                  <span>Nails</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box4--- -->
+              <div class="new-product-box nail">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n4.png" alt="">
+                  <span>Nail</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box5--- -->
+              <div class="new-product-box makeup">
+                
+                <!-- img -->
+                <a href="product-page.html" class="new-product-img">
+                  <img src="images/n5.png" alt="">
+                  <span>Makeup</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box6--- -->
+              <div class="new-product-box makeup">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n6.png" alt="">
+                  <span>Makeup</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box7--- -->
+              <div class="new-product-box makeup">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n7.png" alt="">
+                  <span>Makeup </span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box8--- -->
+              <div class="new-product-box skin">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n8.png" alt="">
+                  <span>Skin care</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box9--- -->
+              <div class="new-product-box skin">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n9.png" alt="">
+                  <span>Skin care</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+              <!-- ------box10--- -->
+              <div class="new-product-box makeup">
+                
+                <!-- img -->
+                <a href="#" class="new-product-img">
+                  <img src="images/n10.png" alt="">
+                  <span>Makeup</span>
+                </a>
+                <!-- text -->
+                 <div class="new-product-text">
+                  <a href="#" class="new-product-title">FaceWash For Women</a>
+                  <span>20$</span>
+                 </div>
+              </div>
+        
+
+
+            </div>
+           </section>    <!--new end-->
+           <section class="product-grid-half ">
+            <!-- box1 -->
+             <div class="product-grid-box  product-grid-box1">
+              <!-- img -->
+               <img src="images/h1.jpg" >
+             
+            <!-- product-grid-text -->
+             <div class="product-grid-text">
+              <strong>Natural Green Lotion</strong>
+              <span>skin care Product</span>
+              <a href="#">shop Now</a>
+             </div>
+          </div>
+            <!-- box2 -->
+             <div class="product-grid-box  product-grid-box2">
+              <!-- img -->
+               <img src="images/h1.jpg" >
+             
+            <!-- product-grid-text -->
+             <div class="product-grid-text">
+              <strong>Natural Green Lotion</strong>
+              <span>skin care Product</span>
+              <a href="#">shop Now</a>
+             </div>
+          </div>
+            <!-- box3 -->
+             <div class="product-grid-box  product-grid-box3">
+              <!-- img -->
+               <img src="images/s3.jpg" >
+             
+            <!-- product-grid-text -->
+             <div class="product-grid-text">
+              <strong>Natural Green Lotion</strong>
+              <span>skin care Product</span>
+              <a href="#">shop Now</a>
+             </div>
+          </div>
+      </section>   <!---------grid-end------>
+
+      <!-- -----------popular----- -->
+       <section id="popular-product">
+    <!-- heading -->
+     <div class="popular-heading">
+          <h3>Popular Product's</h3>
+          <a href="#">All</a>
+     </div>
+     <!-- container -->
+    <div class="popular-container">
+          <!-- box 1-->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n1.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box2 -->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n2.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box3 -->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n3.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box4 -->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n4.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box5 -->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n5.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box 6-->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n6.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box 7-->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n7.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box 8-->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n8.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box 9-->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n9.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box10 -->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n10.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box 11-->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n7.jfif" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+          <!-- box12 -->
+           <div class="popular-box">
+                <a href="#" class="popular-box-img">
+                  <img src="images/n3.png" alt="">
+                </a>
+            <div class="popular-box-text">
+              <a href="#" >FaceWash For Women</a>
+              <span class="p-category"> Face Product's </span>
+              <span class="p-price">10$ <del>15$</del></span>
+            </div>
+           </div>
+    </div>
+
+       </section>   <!---popular-end-->
+
+
+       <!-- ==========Partner======== -->
+<section id="partner">
+    <!-- heading -->
+<div class="partner-heading">
+  <h3>Our Partner</h3>
+</div>
+
+<!-- container -->
+ <div class="logo-container">
+  <img src="images/logo-1.png" >
+  <img src="images/logo-2.png" >
+  <img src="images/logo-3.png" >
+  <img src="images/logo-4.png" >
+ </div>
+</section>    <!--partner - end----->
+
+<section class="product-grid-2 ">
+  <!-- box2 -->
+   <div class="product-grid-box  product-grid-box2">
+    <!-- img -->
+     <img src="images/g2.jpg" >
+   
+  <!-- product-grid-text -->
+   <div class="product-grid-text">
+    <strong>Natural Green <br>Lotion</strong>
+    <span>skin care Product</span>
+    <a href="#">shop Now</a>
+   </div>
+</div>
+  <!-- box3 -->
+   <div class="product-grid-box  product-grid-box3">
+    <!-- img -->  
+     <img src="images/g1.jpg" >
+   
+  <!-- product-grid-text -->
+   <div class="product-grid-text">
+    <strong>Natural Green <br> Lotion</strong>
+    <span>skin care Product</span>
+    <a href="#">shop Now</a>
+   </div>
+</div>
+</section>   <!---------grid-end-->
+
+<!-- footer -->
+
+<footer>
+    <div class="footer-container">
+      <!-- company-box -->
+       <div class="footer-company-box">
+        <!-- logo -->
+              <a href="#" class="footer-logo">
+                Logo
+              </a>
+              <!-- details-->
+               <p>Lorem ipsum, dolor sit amet eaque ob eveniet tenetur quod blanditiis, facilis quis vitae accusantium?</p>
+               <!-- social -->
+     <div class="footer-social">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+      </div>
+
+      <!-- link -box -->
+       <div class="footer-link-box">
+        <strong>Main Link's</strong>
+        <ul><li><a href="#">Our product's</a></li></ul>
+        <ul><li><a href="#">Privacy Policy</a></li></ul>
+        <ul><li><a href="#">Disclimer</a></li></ul>
+        <ul><li><a href="#">Term's & Condition</a></li></ul>
+       </div>
+      <!-- link -box -->
+       <div class="footer-link-box">
+        <strong>Main Link's</strong>
+        <ul><li><a href="#">Our product's</a></li></ul>
+        <ul><li><a href="#">Privacy Policy</a></li></ul>
+        <ul><li><a href="#">Disclimer</a></li></ul>
+        <ul><li><a href="#">Term's & Condition</a></li></ul>
+       </div>
+      <!-- link -box -->
+       <div class="footer-link-box">
+        <strong>Main Link's</strong>
+        <ul><li><a href="#">Our product's</a></li></ul>
+        <ul><li><a href="#">Privacy Policy</a></li></ul>
+        <ul><li><a href="#">Disclimer</a></li></ul>
+        <ul><li><a href="#">Term's & Condition</a></li></ul>
+       </div>
+    </div>
+
+    <!-- ===========bottom====== -->
+<div class="footer-bottom">
+  <span class="footer-owner">made by 	&#9829;</span>
+  <span class="copyright">&copy; Copyright 2024</span>
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           <!-- -------jquery -->
+  <script  src="js/jquery-3.7.1.js"></script>
+
+  <!-- ---------scripting -->
+    <script>
+/* --------filter-link active---------  */
+ var selector = '.new-p-heading li';
+
+
+ $(selector).on('click',function(){
+    $(selector).removeClass('active')
+    $(this).addClass('active')
+ });
+/*  ---box-filter-----*/
+
+$(document).ready(function(){
+  $('.new-p-heading li').click(function(){
+    const value = $(this).attr('data-filter');
+    if(value == 'all'){
+      $('.new-product-box').show('1000');
+    }
+    else{
+      $('.new-product-box').not('.'+value).hide('1000');
+      $('.new-product-box').filter('.'+value).show('1000');
+      
+    }
+  })
+})
+    </script>
+</body>
+</html>
